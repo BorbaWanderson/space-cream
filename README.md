@@ -1,7 +1,5 @@
 # Stage 03 - Mobile First
 
-## 📄 Criando formulário.
-
 ![review](https://i.imgur.com/1ncomcK.png)
 
 > Projeto construído para o desafio Mobile First do Stage 03.
