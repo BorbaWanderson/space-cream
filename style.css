@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-heading: "Staatliches", sans-serif;
+  --ff-texting: "Palanquin", sans-serif;
+  --hue: 250;
+  --fc-h1: hsla(var(--hue), 0%, 100%, 1);
+  --fc-p: hsla(var(--hue), 84%, 12%, 1);
+  --fc-h2: hsla(var(--hue), 17%, 35%, 1);
+}
+
+body {
+  font-family: var(--ff-texting);
+  color: var(--fc-p);
+  background: #eff1ff;
+  text-align: center;
+}
+
+.page {
+  width: 38.4rem;
+  margin: 0 auto;
+}
+
+header {
+  background: #8e9aaf;
+  margin-bottom: 1.4rem;
+}
+
+header img {
+  margin: 3.2rem 12.4rem;
+}
+
+header h1 {
+  font-family: var(--ff-heading);
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: var(--fc-h1);
+  background: #cbc0d3;
+  margin-bottom: 2.9rem;
+  height: 4.9rem;
+  display: grid;
+  align-items: center;
+}
+
+h3 {
+  color: #8e9aaf;
+}
+
+p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  color: var(--fc-p);
+  margin-top: 1.4rem;
+  margin-bottom: 6.3rem;
+  width: 30.5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 3.6rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  object-fit: cover;
+  animation-name: downtop;
+  animation-duration: 1s;
+}
+
+.card h2 {
+  position: absolute;
+  top: 1.6rem;
+  right: 4rem;
+}
+
+.card h2 span {
+  font-family: var(--ff-heading);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.05rem;
+  color: var(--fc-h2);
+  background: #feeafa;
+  border-radius: 2rem;
+  padding: 0 2.4rem;
+  height: 3.5rem;
+  display: inline-block;
+  align-items: center;
+  animation-name: topdown;
+  animation-duration: 1s;
+}
+
+main {
+  display: grid;
+  gap: 3.3rem;
+  margin-bottom: 6rem;
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
