@@ -2,15 +2,15 @@
 
 ![review](https://i.imgur.com/1ncomcK.png)
 
-> Projeto construído para o desafio Mobile First do Stage 03.
+> This project was built for chalange 3 at Rocketseat.
 
-## 🛠️ Tecnologias
+## 🛠️ Techs
 
 - Html
 - CSS
 - Github
 
-## 📬 Contato
+## 📬 Contact
 
 https://www.linkedin.com/in/wanderson-borba-a96969115/
 
